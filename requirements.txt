@@ -3,8 +3,14 @@ python-dotenv
 langchain-community
 langchain-openai
 langchain-ollama
+langchain-chroma
+langchain-huggingface
 pypdf
 bs4
 faiss-cpu
 streamlit
 langchain-groq
+langserve
+fastapi
+uvicorn
+sse_starlette
