@@ -54,12 +54,12 @@ system_prompt = (
     "{context}"
 )
 
-prompt = ChatPromptTemplate.from_messages(
-    [
-        ("system", system_prompt),
-        ("human", "{input}"),
-    ]
-)
+# prompt = ChatPromptTemplate.from_messages(
+#     [
+#         ("system", system_prompt),
+#         ("human", "{input}"),
+#     ]
+# )
 
 # Setup Prompt with chat history
 
